@@ -91,5 +91,6 @@
   "dependencies": {
     "wabt": "^1.0.23"
   },
-  "publisher": "xujuntwt95329"
+  "publisher": "xujuntwt95329",
+  "repository": "https://github.com/xujuntwt95329/wamr-binarydump.git"
 }

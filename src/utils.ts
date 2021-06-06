@@ -113,5 +113,5 @@ export async function bytecode_to_array(uri: Uri, array_name = 'wasm_test_file')
         array_content += `0x${format(byte.toString(16))}, `;
     });
 
-    return `unsigned char __aligned(4) ${array_name}[] = {${array_content}\n}`;
+    return `unsigned char __aligned(4) ${array_name}[] = {${array_content}\n};`;
 }
