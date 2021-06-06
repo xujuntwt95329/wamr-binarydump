@@ -1,9 +1,5 @@
 # wamr-binarydump
 
-This is the README for your extension "wamr-binarydump".
-
-## Features
-
 Dump wasm bytecode into C array.
 
 Right click on the wasm file from the `file-explorer`, `editor` or `editor title`, and select `WAMR binary dump`, then input the array name, and choose the file name to be saved.
