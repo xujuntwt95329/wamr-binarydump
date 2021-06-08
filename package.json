@@ -28,12 +28,12 @@
     "menus": {
       "explorer/context": [
         {
-          "when": "resourceLangId == wasm",
+          "when": "resourceExtname == .wasm",
           "command": "wamr-binarydump.dump",
           "group": "wamr"
         },
         {
-          "when": "resourceLangId == wasm",
+          "when": "resourceExtname == .wasm",
           "command": "wamr-binarydump.preview",
           "group": "wamr"
         }
@@ -41,24 +41,24 @@
       "editor/context": [
         {
           "command": "wamr-binarydump.dump",
-          "when": "resourceLangId == wasm",
+          "when": "resourceExtname == .wasm",
           "group": "wamr"
         },
         {
           "command": "wamr-binarydump.preview",
-          "when": "resourceLangId == wasm",
+          "when": "resourceExtname == .wasm",
           "group": "wamr"
         }
       ],
       "editor/title/context": [
         {
           "command": "wamr-binarydump.dump",
-          "when": "resourceLangId == wasm",
+          "when": "resourceExtname == .wasm",
           "group": "wamr"
         },
         {
           "command": "wamr-binarydump.preview",
-          "when": "resourceLangId == wasm",
+          "when": "resourceExtname == .wasm",
           "group": "wamr"
         }
       ]
