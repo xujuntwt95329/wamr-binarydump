@@ -2,7 +2,7 @@
   "name": "wamr-binarydump",
   "displayName": "WAMR binarydump",
   "description": "dump wasm file into C array, this is used to embed wasm bytecode into C code",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.18.0"
   },
